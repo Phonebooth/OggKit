@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "17EE842625CC493A002F15B3"
                BuildableName = "ogg-swiftUITests.xctest"
-               BlueprintName = "ogg-swiftUITests"
-               ReferencedContainer = "container:ogg-swift.xcodeproj">
+               BlueprintName = "OggKitUITests"
+               ReferencedContainer = "container:OggKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "17EE842625CC493A002F15B3"
                BuildableName = "ogg-swiftUITests.xctest"
-               BlueprintName = "ogg-swiftUITests"
-               ReferencedContainer = "container:ogg-swift.xcodeproj">
+               BlueprintName = "OggKitUITests"
+               ReferencedContainer = "container:OggKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

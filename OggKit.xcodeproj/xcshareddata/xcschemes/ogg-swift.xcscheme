@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "17E5BB6925C817C20061F232"
-               BuildableName = "YbridOgg.framework"
-               BlueprintName = "ogg-swift"
-               ReferencedContainer = "container:ogg-swift.xcodeproj">
+               BuildableName = "OggKit.framework"
+               BlueprintName = "OggKit"
+               ReferencedContainer = "container:OggKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17E5BB6925C817C20061F232"
-            BuildableName = "YbridOgg.framework"
-            BlueprintName = "ogg-swift"
-            ReferencedContainer = "container:ogg-swift.xcodeproj">
+            BuildableName = "OggKit.framework"
+            BlueprintName = "OggKit"
+            ReferencedContainer = "container:OggKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -23,7 +23,7 @@
 // SOFTWARE.
 //
 
-framework module YbridOgg {
+framework module OggKit {
     umbrella header "ogg_swift.h"
     export *
 }

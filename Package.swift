@@ -3,24 +3,24 @@
 
 import PackageDescription
 
-let version = "0.8.0"
+let version = "1.3.5"
 let package = Package(
-    name: "YbridOgg",
+    name: "OggKit",
     platforms: [
-        .macOS(.v10_10), .iOS(.v9)
+        .macOS(.v10_15), .iOS(.v14)
     ],
     products: [
         .library(
-            name: "YbridOgg",
-            targets: ["YbridOgg"]),
+            name: "OggKit",
+            targets: ["OggKit"]),
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-            name: "YbridOgg", 
-            url: "https://github.com/ybrid/ogg-swift/releases/download/"+version+"/YbridOgg.xcframework.zip",
-            checksum: "871547dc18a2c7257dc9711203afa523117c845cc73fc49b0e1fc7d32667f543"
-            )
+            name: "OggKit", 
+            url: "https://github.com/Phonebooth/OggKit/releases/download/" + version + "/OggKit.xcframework.zip",
+            checksum: "1ee95dbe3cc824508fb08618c54a328a2b6926685082f0a2a4cf3688c10940b6"
+        )
     ]
 )

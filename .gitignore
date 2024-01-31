@@ -10,15 +10,10 @@ DerivedData
 *.hmap
 *.xccheckout
 
-# nacamar's prepare.sh operates in libogg* and build.sh creates xcframework
+# prepare.sh operates in libogg* and build.sh creates xcframework
 *.log
 libogg-*/
-include/*.h
-include/COPYING
-src/*.h 
-src/*.c
 *.xcframework
-*.zip
 contributions/
 tmp
 .swiftpm

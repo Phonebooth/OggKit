@@ -36,7 +36,7 @@ generatedPath="Products/Library/Frameworks"
 
 # path and name of intermediatly built frameworks 
 builtPath="$dd/Build/Products" 
-framework=YbridOgg.framework
+framework=OggKit.framework
 
 rm -rfd $dd
 mkdir -p "$archivesPath"
@@ -71,7 +71,7 @@ cp -R "$archivesPath/$platform.xcarchive/$generatedPath" "$builtPath/Archive-$pl
 
 
 # name of final ogg xcframework
-xcFramework=YbridOgg.xcframework
+xcFramework=OggKit.xcframework
 rm -rfd $xcFramework
 
 products=`ls $builtPath`
