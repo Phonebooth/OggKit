@@ -26,8 +26,8 @@
 #include <TargetConditionals.h>
 
 #if TARGET_OS_IPHONE
-    @import UIKit; 
-#else
+    @import UIKit;
+#elif TARGET_OS_OSX
     @import AppKit;
 #endif
 
