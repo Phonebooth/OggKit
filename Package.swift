@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "1.3.5"
+let version = "1.3.6"
 let package = Package(
     name: "OggKit",
     platforms: [
@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "OggKit", 
             url: "https://github.com/Phonebooth/OggKit/releases/download/" + version + "/OggKit.xcframework.zip",
-            checksum: "1ee95dbe3cc824508fb08618c54a328a2b6926685082f0a2a4cf3688c10940b6"
+            checksum: "bc0fc1eed6abddfe3547d0d674cf3dd0c37b0d8d09f765032a57e4317395172d"
         )
     ]
 )
